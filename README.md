@@ -1,4 +1,4 @@
-###Down-counter is a reminder for myself and my friends. Time flies so fast.
+###Down-counter is a reminder for myself and my friends.
 
 Credits to [Alex Carpenter's personal blog][1]
 
