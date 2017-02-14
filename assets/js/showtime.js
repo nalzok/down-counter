@@ -45,9 +45,9 @@ var update;
                      + ("0" + me_dur.minutes()).slice(-2) + "m "
                      + ("0" + me_dur.seconds()).slice(-2) + "s";
 
-    /*   moment("20170628 08:00", "YYYYMMDD hh:mm").format('X')
-     * - moment("20170214 08:00", "YYYYMMDD hh:mm").format('X')
-     * === 115776
+    /*   moment("20170628 08:00", "YYYYMMDD hh:mm").format('x')
+     * - moment("20170214 08:00", "YYYYMMDD hh:mm").format('x')
+     * === 115776000
      * */
     document.getElementById("sv_bar")
         .style.width = (100 - sv_time.diff(now) / 115776000)
