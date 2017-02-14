@@ -1,0 +1,23 @@
+title: Down-counter
+url: ""
+
+# Gems
+gems:
+  - jekyll-gist
+  - jemoji
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: :path
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - node_modules
+  - ./assets/js/app.js

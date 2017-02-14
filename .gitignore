@@ -1,0 +1,8 @@
+**/.DS_Store
+_site/
+public
+.sass-cache
+.jekyll-metadata
+.bundle
+.tweet-cache
+node_modules
