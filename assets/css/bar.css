@@ -8,4 +8,12 @@
     overflow: hidden;
 }
 
-.bar div {height: 100%;background: #777}
+.bar div {
+    height: 100%;
+    position:relative;
+}
+
+.bar #sv_bar {background: #777}
+.bar #ma_bar {top:-100%;border-right: 1px solid #4169E1}
+.bar #aa_bar {top:-200%;border-right: 1px solid #B8860B}
+.bar #me_bar {top:-300%;border-right: 1px solid #FF4500}
