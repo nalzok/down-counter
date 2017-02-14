@@ -1,0 +1,11 @@
+.bar { 
+    height: 18px;
+    border: 1px solid #777;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0; margin: 8px;
+    overflow: hidden;
+}
+
+.bar div {height: 100%;background: #777}
